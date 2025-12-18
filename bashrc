@@ -72,5 +72,4 @@ PS1='[\[\e[0;36m\]\A\[\e[0m\]:\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;35m\]\h\[\e[0m\]]-[
 PS1nogit='[\[\e[0;36m\]\A\[\e[0m\]:\[\e[0;33m\]${SUDO_USER:+\[\e[9m\]$SUDO_USER\[\e[0m\]/\[\e[1;31m\]}\u\[\e[0m\]@\[\e[0;35m\]\h\[\e[0m\]]-[\[\e[1;34m\]\w\[\e[0m\]]\$ '
 # Sudo -i ook met prompt
 alias sudo='sudo PS1="$PS1nogit" $@'
-
 alias gris='history|grep $1'
