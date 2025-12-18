@@ -74,10 +74,3 @@ PS1nogit='[\[\e[0;36m\]\A\[\e[0m\]:\[\e[0;33m\]${SUDO_USER:+\[\e[9m\]$SUDO_USER\
 alias sudo='sudo PS1="$PS1nogit" $@'
 
 alias gris='history|grep $1'
-
-######################################
-## setting up highlighting for less ##
-######################################
-export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
-export LESS=' -R '
-
